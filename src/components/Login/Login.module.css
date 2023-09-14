@@ -1,0 +1,56 @@
+.loginForm {
+  margin: 10rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  align-items: flex-end;
+}
+
+.form input {
+  padding: 10px;
+  margin: 10px;
+  border: 0px solid green;
+  width: 100%;
+  /* border-radius: 5px; */
+}
+.form input:focus {
+  border: 0px solid;
+  outline: 0px solid;
+}
+.submitBtn {
+  border: 0px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #6fd96f;
+  color: white;
+  width: 150px;
+  border-radius: 3px;
+}
+.submitBtn:hover {
+  /* background-color: #51da51; */
+  transform: scale(0.98);
+  transition: all 0.2s ease;
+}
+
+.disabled {
+  background-color: rgb(194, 194, 194);
+}
+
+.disabled:hover {
+  transform: scale(1);
+}
+
+.invalid {
+  border-color: grey;
+}
+.invalid_msg {
+  color: red;
+  visibility: hidden;
+  margin: 10px;
+}
+.show {
+  visibility: visible;
+}
